@@ -41,17 +41,3 @@
     background-color: white;
     border-radius: 25px;
   }
-@media screen and (max-width: 480px) {
-  .popup_inner {
-    position: absolute;
-    margin: auto;
-    color:black;
-    font-size: 10px;
-    background-color: white;
-    border-radius: 5px;
-  }
-    .popup {
-    position: fixed;
-    background-color: rgba(0,0,0, 0.7);
-  }
-}
