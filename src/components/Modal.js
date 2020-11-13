@@ -9,7 +9,7 @@ const Modal = (props) =>{
       <img src={Close} className='close_btn' onClick={props.closePopup}/>
       {/*</button>*/}
         <br></br>
-        <img className="image" src={props.url} width="400" height="400"/>
+        <img className="image" src={props.url}/>
         <br></br>
         <p>Uploaded by : {props.name} 
         <br></br>
