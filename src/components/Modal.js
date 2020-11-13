@@ -6,7 +6,7 @@ const Modal = (props) =>{
         <div className='popup'>
         <div className='popup_inner'>
     {/*<button className='close_btn' onClick={props.closePopup}>*/}
-      <img src={Close} className='close_btn' onClick={props.closePopup}/>
+      <img src={Close} className='close_btn' onClick={props.closePopup}width="400" height="400"/>
       {/*</button>*/}
         <br></br>
         <img className="image" src={props.url}/>
