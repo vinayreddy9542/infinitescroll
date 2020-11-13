@@ -10,7 +10,10 @@
     background-color: rgba(0,0,0, 0.7);
   }
   .image:hover{
-    transform: scale(2);
+    animation: mymove 1s;
+  }
+  @keyframes mymove {
+    100% {transform: rotate(360deg);}
   }
   .close_btn{
     position: absolute;
