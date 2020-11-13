@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Modal from './Modal'
-import './syles.css'
+import './styles.css'
 class Imageshow extends Component{
     constructor(props){
         super(props)
