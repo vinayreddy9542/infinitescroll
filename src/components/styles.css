@@ -41,7 +41,7 @@
     background-color: white;
     border-radius: 25px;
   }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .popup_inner {
     position: absolute;
     margin: auto;
